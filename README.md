@@ -1,6 +1,8 @@
 
-qstringify.js - querystring-ify nested object or not
+qstringify.js
 ==================================================
+
+**querystring-ify nested object or not**!!!
 
 Parse unlimited your nested querystring in 15 Lines of Code. Both available at Node.js 
 and most morden browsers.
