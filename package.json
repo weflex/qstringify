@@ -1,0 +1,32 @@
+{
+  "name": "qstringify",
+  "version": "1.0.0",
+  "description": "querystring-ify any JavaScript object",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js",
+    "benchmark": "./node_modules/.bin/matcha benchmarks/vs.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/weflex/qstringify.git"
+  },
+  "keywords": [
+    "query",
+    "string",
+    "benchmark",
+    "fast"
+  ],
+  "author": "Yorkie Liu <yorkiefixer@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/weflex/qstringify/issues"
+  },
+  "homepage": "https://github.com/weflex/qstringify#readme",
+  "devDependencies": {
+    "matcha": "^0.6.1",
+    "qs": "^6.0.1",
+    "querystring": "^0.2.0",
+    "tape": "^4.4.0"
+  }
+}
