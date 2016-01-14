@@ -54,4 +54,17 @@ test('loopback filter', function (t) {
     '?filter[where][sex][in]=male&filter[where][sex][in]=female'
   );
   t.end();
-})
+});
+
+test('loopback filter include', function (t) {
+  const filter = {
+    filter: {
+      include: ['a', 'b']
+    }
+  };
+  t.equal(
+    qstringify(filter),
+    '?filter[include]=a&filter[include]=b'
+  );
+  t.end();
+});
