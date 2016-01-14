@@ -51,7 +51,7 @@ test('loopback filter', function (t) {
   };
   t.equal(
     qstringify(filter),
-    '?filter[where][sex][in]=male,female'
+    '?filter[where][sex][in]=male&filter[where][sex][in]=female'
   );
   t.end();
 })
