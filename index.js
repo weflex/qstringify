@@ -1,11 +1,10 @@
-
 function stringify(obj, prevKey, sep) {
   "use strict";
   var result = '';
   sep = sep || '?';
   for (var key in obj) {
-    const val = obj[key];
-    const globalKey = !prevKey ? key : (prevKey + '[' + key + ']');
+    var val = obj[key];
+    var globalKey = !prevKey ? key : (prevKey + '[' + key + ']');
     if (Array.isArray(val)) {
       val.forEach(function (subval) {
         set(globalKey, subval);
