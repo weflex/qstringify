@@ -1,6 +1,6 @@
 {
   "name": "qstringify",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "description": "querystring-ify any JavaScript object",
   "main": "index.js",
   "scripts": {
